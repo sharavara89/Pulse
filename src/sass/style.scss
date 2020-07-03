@@ -4,3 +4,11 @@
 * {
     font-family: 'Museo Sans Cyril', sans-serif;
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/poromo';
+@import 'blocks/header';
+@import 'blocks/buttons';
