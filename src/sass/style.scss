@@ -1,5 +1,4 @@
 @import 'base/variables';
-@import 'base/mixins';
 
 * {
     font-family: 'Museo Sans Cyril', sans-serif;
@@ -12,3 +11,5 @@
 @import 'blocks/poromo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles'
