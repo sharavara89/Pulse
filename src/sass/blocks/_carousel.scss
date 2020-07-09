@@ -5,7 +5,7 @@
         width: 750px;
         margin: 0 auto;
     }
-    .prev, .next {
+    .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -18,33 +18,12 @@
             height: 50px;
         }
     }
-    .next {
+    .slick-next {
         right: -66px;
         left: auto;
     }
-    .tns-item {
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-    }
-    .tns-nav {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        button {
-            border-radius: 100%;
-            width: 10px;
-            height: 10px;
-            margin: 0 7px;
-            background-color: $main-color;
-            border: none;
-            outline: none;
-            padding: 0;
-        }
-        .tns-nav-active {
-            background-color: gray;
-        }
+    .slick-dots {
+        list-style-type: none;
+        border: none;
     }
 }
