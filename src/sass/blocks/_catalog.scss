@@ -40,7 +40,6 @@
         margin-top: 60px;
         display: none;
         flex-wrap: wrap;
-        justify-content: space-between;
         &_active {
             display: flex;
         }
@@ -51,7 +50,10 @@
         min-height: 440px;
         border: 2px solid #e8e8e8;
         overflow: hidden;
-        margin-bottom: 20px;
+        margin: 0 20px 20px 0;
+        &:nth-child(3n) {
+            margin-right: 0px;
+        }
         &__img {
             display: block;
             margin: 0 auto;
@@ -149,7 +151,6 @@
                     background-color: $main-color;
                     left: -19px;
                     top: 7px;
-
                 }
             }
         }
