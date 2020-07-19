@@ -24,7 +24,7 @@
         cursor: pointer;
         transition: 0.5s all;
         &:hover {
-            box-shadow: 3px 3px 15px $main-color;
+            box-shadow: 3px 3px 10px $main-color;
             border: none;
         }
         div {
@@ -68,7 +68,7 @@
             text-align: center;
         }
         &__descr {
-            margin-top: 16px;
+            margin: 16px 10px 0 10px;
             color: #0d0d0d;
             font-size: 14px;
             font-weight: 300;
