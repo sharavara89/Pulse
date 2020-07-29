@@ -30,7 +30,7 @@
         transition: 0.3s all;
         &:hover {
             color: #ffffff;
-            transform: scale(1.07);
+            transform: scale(1.1);
         }
     }
     &__social {
@@ -57,7 +57,7 @@
             background-color: #ffffff;
             color: $main-color;
             text-decoration: none;
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
     }
 }
