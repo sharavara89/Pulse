@@ -1,0 +1,16 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 10px $main-color;
+    }
+    img {
+        width: 100%;
+    }
+}
