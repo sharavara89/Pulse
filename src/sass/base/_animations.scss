@@ -1,34 +1,39 @@
-.advantages__icon_animated {
-    animation: heartbeat 1.5s ease infinite;
-    &:hover {
+.heartBeat {
+	animation: heartBeat calc(1s * 1.3) ease-in-out infinite;
+	&:hover {
         animation-play-state: paused;
     }
 }
 
-@keyframes heartbeat {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1); 
-    }
+@keyframes heartBeat {
+	0% {
+		transform: scale(1);
+	}
+	14% {
+		transform: scale(1.3);
+	}
+	28% {
+		transform: scale(1);
+	}
+	42% {
+		transform: scale(1.3);
+	}
+	70% {
+		transform: scale(1);
+	}
 }
 
-.feed__item_animated {
-    animation: fadeInRight 2s both 0.5s;
+.fadeInRight {
+	animation: fadeInRight 1s both .5s;
 }
 
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
+  @keyframes fadeInRight {
+	from {
+	  opacity: 0;
+	  transform: translate3d(100%, 0, 0);
+	}
+	to {
+	  opacity: 1;
+	  transform: translate3d(0, 0, 0);
+	}
 }

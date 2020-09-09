@@ -8,7 +8,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
                     dots: true,
                     arrows: false
@@ -118,6 +118,6 @@ $(document).ready(function(){
                 return false;
         });
     });
-    
+
     new WOW().init();
 });

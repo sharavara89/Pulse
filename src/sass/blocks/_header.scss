@@ -28,16 +28,14 @@
         font-size: 18px;
         line-height: 18px;
         margin-bottom: 8px;
-        transition: 0.3s all;
         &:hover {
             text-decoration: none;
             color: #ffffff;
-            transform: scale(1.1);
         }
     }
     &__contacts {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     }
 }
