@@ -10,7 +10,9 @@
     border: none;
     transition: 0.3s all;
     &:hover {
-        @include btn_hover;
+        background-color: #ffffff;
+        color: $main-color;
+        box-shadow: 2px 2px 10px $main-color;
     }
     &_main {
         margin-top: 67px;
