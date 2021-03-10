@@ -1,5 +1,6 @@
 .feed {
     padding-bottom: 70px;
+    overflow: hidden;
     &__item {
         display: flex;
         &:nth-child(2) {

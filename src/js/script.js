@@ -17,6 +17,8 @@ $(document).ready(function(){
         ]
     });
 
+    //Tabs switcher
+
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
           .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
@@ -52,6 +54,8 @@ $(document).ready(function(){
         });
     });
 
+    //Validation Plugin
+
     function validateForms(form) {
         $(form).validate({
             rules:{
@@ -83,7 +87,11 @@ $(document).ready(function(){
     validateForms('#consultation form');
     validateForms('#order form');
 
+    //Masked phone input
+
     $('input[name=phone]').mask("+7 (999) 999-9999");
+
+    //Mailer PHP
 
     $('form').submit(function(e) {
         e.preventDefault();

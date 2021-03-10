@@ -26,16 +26,14 @@
     }
     &__phone {
         display: block;
-        color: #ffffff;
         font-size: 20px;
         line-height: 20px;
         font-weight: 700;
         text-align: center;
         margin-bottom: 38px;
-        transition: 0.3s all;
+        color: #ffffff;
         &:hover {
             color: #ffffff;
-            transform: scale(1.1);
         }
     }
     &__social {
