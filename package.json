@@ -18,7 +18,10 @@
   "homepage": "https://github.com/sharavara89/uber#readme",
   "dependencies": {
     "autoprefixer": "^6.5.4",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "ini": "^2.0.0",
+    "lodash.update": "^4.10.2",
+    "socket.io": "^4.0.0"
   },
   "devDependencies": {
     "animate.css": "^4.1.0",
