@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/sharavara89/uber#readme",
   "dependencies": {
-    "autoprefixer": "^6.5.4"
+    "autoprefixer": "^6.5.4",
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "animate.css": "^4.1.0",
